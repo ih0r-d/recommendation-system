@@ -49,7 +49,7 @@ The system will consist of four microservices: User Service, Product Service, Re
 
 ### Machine Learning Integration
 - Experiment with machine learning models to improve recommendation accuracy.
-- Use tools like Apache Spark for batch processing user activity data.
+- Use tools like Apache Spark for batch-processing user activity data.
 
 ### Caching
 - Implement caching mechanisms to enhance the performance of recommendation queries.
@@ -58,7 +58,6 @@ The system will consist of four microservices: User Service, Product Service, Re
 - Containerize each microservice using Docker.
 - Use Docker Compose to manage the deployment of the entire system.
 
-## Tech Stack
 ## Tech Stack
 
 - **Java 21:** Use Java 21 for building each microservice.
