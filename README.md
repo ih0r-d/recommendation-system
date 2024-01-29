@@ -7,7 +7,7 @@ The system will consist of four microservices: User Service, Product Service, Re
 ## Microservices
 
 ### User Service
-- Manages user-profiles and their activity.
+- Manages user profiles and their activity.
 - Stores user information, such as preferences and purchase history, in PostgreSQL.
 - Exposes REST APIs for user registration, profile updates, and activity tracking.
 - Produces Kafka messages when users interact with the platform.
