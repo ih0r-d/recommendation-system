@@ -1,13 +1,17 @@
-# E-commerce Recommendation System  (Draft)
+# [DRAFT] E-commerce Recommendation System
 
 ## Overview
-Create a simple e-commerce recommendation system where users receive personalized product recommendations based on their browsing and purchasing history. 
-The system will consist of four microservices: User Service, Product Service, Recommendation Service, and Notification Service.
+Create a simple e-commerce recommendation system where users receive personalized product recommendations based on browsing and purchasing history. 
+The system will consist of four microservices: 
+* User Service,
+* Product Service,
+* Recommendation Service,
+* Notification Service.
 
 ## Microservices
 
 ### User Service
-- Manages user profiles and their activity.
+- Manages user-profiles and their activity.
 - Stores user information, such as preferences and purchase history, in PostgreSQL.
 - Exposes REST APIs for user registration, profile updates, and activity tracking.
 - Produces Kafka messages when users interact with the platform.
